@@ -1,0 +1,41 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "An example app for canjs, using webpack.",
+  "author": "Bitovi",
+  "license": "MIT",
+  "homepage": "https://github.com/canjs/webpack-example.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/canjs/webpack-example.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canjs/webpack-example.js/issues"
+  },
+  "keywords": [
+    "CanJS",
+    "DoneJS",
+    "StealJS"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "clean": "rm -rf bundle.js",
+    "develop": "webpack --progress -d --watch main.js bundle.js",
+    "build": "webpack --progress -p main.js bundle.js"
+  },
+  "dependencies": {
+    "can-component": "^4.0.0",
+    "can-compute": "^4.0.0",
+    "can-connect": "^2.0.1",
+    "can-define": "^2.0.0",
+    "can-route": "^4.0.1",
+    "can-route-pushstate": "^4.0.1",
+    "can-set": "^1.5.1",
+    "can-stache": "^4.0.2",
+    "can-stache-bindings": "^4.0.4"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.10.0"
+  }
+}
