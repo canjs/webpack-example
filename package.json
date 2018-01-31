@@ -24,7 +24,7 @@
     "build": "webpack --progress -p main.js bundle.js"
   },
   "dependencies": {
-    "can-component": "^4.0.0",
+    "can-component": "^4.0.1",
     "can-compute": "^4.0.0",
     "can-connect": "^2.0.1",
     "can-define": "^2.0.0",
