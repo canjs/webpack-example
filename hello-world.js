@@ -1,8 +1,8 @@
-var Component = require("can-component");
-var DefineMap = require("can-define/map/map");
-var stache = require("can-stache");
+import Component from "can-component";
+import DefineMap from "can-define/map/map";
+import stache from "can-stache";
 
-var HelloWorldVM = DefineMap.extend({
+const HelloWorldVM = DefineMap.extend({
   visible: { default: false },
   message: { default: "Hello There!" }
 });
