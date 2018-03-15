@@ -1,9 +1,9 @@
-var DefineMap = require("can-define/map/map");
-var stache = require("can-stache");
-var template = stache(require('raw-loader!./main.stache'));
-
+import DefineMap from "can-define/map/map";
+import stache from "can-stache";
+import rawTemplate from "raw-loader!./main.stache";
 import "./hello-world";
 
-var data = new DefineMap({ message: "Hello World" });
+const data = new DefineMap({ message: "Hello World" });
+const template = stache(rawTemplate);
 
 document.body.appendChild(template(data));
