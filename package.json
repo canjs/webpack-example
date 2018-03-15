@@ -22,7 +22,7 @@
     "build": "webpack --progress -p main.js -o dist/bundle.production.js",
     "clean": "rm -rf bundle.js",
     "develop": "webpack --progress -d --watch main.js -o dist/bundle.js",
-    "start": "http-server"
+    "start": "http-server -c-1"
   },
   "dependencies": {
     "can-component": "^4.0.1",
