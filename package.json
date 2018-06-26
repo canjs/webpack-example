@@ -1,44 +1,36 @@
 {
   "name": "webpack-example",
-  "version": "1.0.0",
-  "description": "An example app for canjs, using webpack.",
-  "author": "Bitovi",
-  "license": "MIT",
-  "homepage": "https://github.com/canjs/webpack-example.js#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/canjs/webpack-example.js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/canjs/webpack-example.js/issues"
+  "version": "5.0.0",
+  "description": "An example app for canjs, using webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack --progress --watch",
+    "build": "webpack --progress --config webpack.config.prod.js"
   },
   "keywords": [
     "CanJS",
-    "DoneJS",
-    "StealJS"
+    "DoneJS"
   ],
-  "main": "main.js",
-  "scripts": {
-    "build": "webpack --progress -p main.js -o dist/bundle.production.js",
-    "clean": "rm -rf bundle.js",
-    "develop": "webpack --progress -d --watch main.js -o dist/bundle.js",
-    "start": "http-server -c-1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canjs/webpack-example.git"
   },
-  "dependencies": {
-    "can-component": "^4.0.1",
-    "can-compute": "^4.0.0",
-    "can-connect": "^2.0.1",
-    "can-define": "^2.0.0",
-    "can-route": "^4.0.1",
-    "can-route-pushstate": "^4.0.1",
-    "can-set": "^1.5.1",
-    "can-stache": "^4.0.2",
-    "can-stache-bindings": "^4.0.4"
+  "keywords": [],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canjs/webpack-example/issues"
   },
+  "homepage": "https://github.com/canjs/webpack-example#readme",
   "devDependencies": {
     "http-server": "^0.11.1",
     "raw-loader": "^0.5.1",
-    "webpack": "^4.0.0",
-    "webpack-cli": "^2.0.12"
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "can": "^5.0.0-pre.2"
   }
 }
