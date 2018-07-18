@@ -17,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/canjs/webpack-example.git"
   },
-  "keywords": [],
   "author": "Bitovi",
   "license": "MIT",
   "bugs": {
@@ -25,12 +24,13 @@
   },
   "homepage": "https://github.com/canjs/webpack-example#readme",
   "devDependencies": {
+    "can-stache-loader": "^2.0.0",
     "http-server": "^0.11.1",
     "raw-loader": "^0.5.1",
     "webpack": "^4.12.1",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "can": "^5.0.0-pre.2"
+    "can": "^5.0.0"
   }
 }

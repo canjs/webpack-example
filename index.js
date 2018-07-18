@@ -1,6 +1,6 @@
 // index.js
-import {Component} from "can";
-import view from "raw-loader!./app.stache";
+import { Component } from "can";
+import view from "./app.stache";
 
 Component.extend({
   tag: "my-app",
