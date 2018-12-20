@@ -7,7 +7,7 @@ Component.extend({
   view,
   ViewModel: {
     message: {
-      default: "Hello World"
+      default: "Hello World!"
     }
   }
 });
