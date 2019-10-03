@@ -25,7 +25,7 @@
     "start": "http-server -c-1"
   },
   "dependencies": {
-    "can-component": "^4.0.1",
+    "can-component": "^5.0.0",
     "can-compute": "^4.0.0",
     "can-connect": "^2.0.1",
     "can-define": "^2.0.0",
