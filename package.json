@@ -33,7 +33,7 @@
     "can-route-pushstate": "^4.0.1",
     "can-set": "^1.5.1",
     "can-stache": "^4.0.2",
-    "can-stache-bindings": "^4.0.4"
+    "can-stache-bindings": "^5.0.0"
   },
   "devDependencies": {
     "http-server": "^0.11.1",
