@@ -30,12 +30,13 @@ module.exports = {
     new UglifyJSPlugin({
         sourceMap: true,
         uglifyOptions: { compress: false, mangle: false, dead_code: true }
-    })
+    }),
+    new webpack.NormalModuleReplacementPlugin(
+      /can-route\/src\/routedata/,
+      "./routedata-definemap.js"
+    )
   ],
   resolve: {
-    extensions: ["*", ".js"],
-    alias: {
-      "./src/routedata": "./src/routedata-definemap"
-    }
+    extensions: ["*", ".js"]
   }
 };

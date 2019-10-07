@@ -1,6 +1,6 @@
 // index.js
 import "core-js/stable"
-import { Component } from "can";
+import { Component, route } from "can";
 import view from "./app.stache";
 
 Component.extend({
@@ -12,3 +12,6 @@ Component.extend({
     }
   }
 });
+
+route.register("{page}", {page: "home" });
+route.start();
