@@ -9,6 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   mode: "development",
+  target: "web",
   module: {
    rules: [
       {
@@ -32,6 +33,9 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ["*", ".js"]
+    extensions: ["*", ".js"],
+    alias: {
+      "./src/routedata": "./src/routedata-definemap"
+    }
   }
 };
