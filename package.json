@@ -32,7 +32,7 @@
     "raw-loader": "^0.5.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.12.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "can": "^6.0.0"
