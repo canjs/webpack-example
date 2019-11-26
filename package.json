@@ -28,7 +28,7 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "babel-loader": "^8.0.6",
     "can-stache-loader": "^2.0.0",
-    "http-server": "^0.11.1",
+    "http-server": "^0.12.0",
     "raw-loader": "^0.5.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.12.1",
