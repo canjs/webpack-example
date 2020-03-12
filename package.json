@@ -35,6 +35,6 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "can": "^6.0.0"
+    "can": "^6.3.1"
   }
 }
